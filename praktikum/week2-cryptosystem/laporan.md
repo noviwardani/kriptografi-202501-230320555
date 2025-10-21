@@ -1,30 +1,34 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 2 
+Topik:cryptosystem  
+Nama:Novi Ari Wardani  
+NIM: 23032055  
+Kelas: 5DSRA  
 
----
+
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1.Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).
+2.Menggambarkan proses enkripsi dan dekripsi sederhana.
+3.Mengklasifikasikan jenis kriptosistem (simetris dan asimetris).
 
----
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
 Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 
----
+Kriptosistem secara umum diklasifikasikan menjadi dua jenis utama, yaitu kriptosistem simetris dan kriptosistem asimetris, berdasarkan cara penggunaan kunci dalam proses enkripsi dan dekripsi. Pada kriptosistem simetris, kunci yang digunakan untuk mengenkripsi dan mendekripsi pesan adalah sama. Artinya, baik pengirim maupun penerima pesan harus memiliki dan menjaga kerahasiaan kunci yang identik. Sistem ini cenderung lebih cepat dan efisien, serta cocok digunakan untuk mengenkripsi data dalam jumlah besar. Contoh algoritma simetris yang terkenal adalah AES (Advanced Encryption Standard) dan DES (Data Encryption Standard).
+
+Sementara itu, kriptosistem asimetris menggunakan sepasang kunci yang berbeda, yaitu kunci publik dan kunci privat. Kunci publik digunakan untuk mengenkripsi pesan dan dapat dibagikan secara luas, sedangkan kunci privat digunakan untuk mendekripsi pesan dan harus dijaga kerahasiaannya oleh pemilik. Sistem ini lebih aman untuk pertukaran data melalui jaringan terbuka karena tidak memerlukan pengiriman kunci rahasia. Kriptosistem asimetris banyak digunakan dalam komunikasi digital modern, termasuk dalam protokol keamanan seperti SSL/TLS. Salah satu contoh algoritma asimetris paling terkenal adalah RSA (Rivest–Shamir–Adleman).
+
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Library tambahan 
 
----
 
 ## 4. Langkah Percobaan
 (Tuliskan langkah yang dilakukan sesuai instruksi.  
