@@ -2,7 +2,7 @@
 Minggu ke-: 2 
 Topik:cryptosystem  
 Nama:Novi Ari Wardani  
-NIM: 23032055  
+NIM: 230320555 
 Kelas: 5DSRA  
 
 
