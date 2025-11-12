@@ -146,9 +146,10 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit cryptosystem
+
+Author: Novi Ari Wardani <wardani101103@gmail.com>
+Date:   2025-10-29
 
     week2-cryptosystem: implementasi Caesar Cipher dan laporan )
 
