@@ -1,0 +1,14 @@
+import math
+
+def entropy(keyspace_size):
+    return math.log2(keyspace_size)
+
+def unicity_distance(HK, R=0.75, A=26):
+    return HK / (R * math.log2(A))
+
+HK = entropy(26)
+U = unicity_distance(HK)
+
+print("=== PERHITUNGAN UNICITY DISTANCE ===")
+print("Entropi kunci (H(K)) =", HK, "bit")
+print("Unicity Distance (U) =", U, "karakter")
