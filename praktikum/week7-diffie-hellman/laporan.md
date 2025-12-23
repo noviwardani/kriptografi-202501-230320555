@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 7  
+Topik: Diffie-hellman 
+Nama: Novi Ari Wardani 
+NIM:230320555  
+Kelas: 5DSRA 
 
 ---
 
