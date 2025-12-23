@@ -5,12 +5,13 @@ Nama: Novi Ari Wardani
 NIM:230320555  
 Kelas: 5DSRA 
 
----
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
 
-Protokol Diffie–Hellman digunakan untuk menukar kunci rahasia melalui jaringan tidak aman tanpa mengirimkan kunci tersebut secara langsung. Mekanismenya memanfaatkan bilangan prima dan operasi perpangkatan modulo untuk menghasilkan kunci publik dan kunci rahasia bersama. Keamanan protokol ini bergantung pada sulitnya memecahkan masalah logaritma diskrit. Meskipun aman secara matematis, Diffie–Hellman rentan terhadap serangan Man-in-the-Middle jika tidak menggunakan autentikasi. Dalam serangan ini, penyerang dapat menyamar sebagai pihak komunikasi dan memperoleh kunci rahasia. Oleh karena itu, Diffie–Hellman biasanya dikombinasikan dengan sertifikat digital atau tanda tangan kriptografi. Kombinasi tersebut memastikan keamanan dan keaslian komunikasi.
+1. Melakukan simulasi protokol Diffie-Hellman untuk pertukaran kunci publik.
+2. Menjelaskan mekanisme pertukaran kunci rahasia menggunakan bilangan prima dan logaritma diskrit.
+3. Menganalisis potensi serangan pada protokol Diffie-Hellman (termasuk serangan Man-in-the-Middle / MITM).
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
