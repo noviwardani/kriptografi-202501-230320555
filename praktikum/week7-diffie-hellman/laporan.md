@@ -10,21 +10,19 @@ Kelas: 5DSRA
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
 
----
+Protokol Diffie–Hellman digunakan untuk menukar kunci rahasia melalui jaringan tidak aman tanpa mengirimkan kunci tersebut secara langsung. Mekanismenya memanfaatkan bilangan prima dan operasi perpangkatan modulo untuk menghasilkan kunci publik dan kunci rahasia bersama. Keamanan protokol ini bergantung pada sulitnya memecahkan masalah logaritma diskrit. Meskipun aman secara matematis, Diffie–Hellman rentan terhadap serangan Man-in-the-Middle jika tidak menggunakan autentikasi. Dalam serangan ini, penyerang dapat menyamar sebagai pihak komunikasi dan memperoleh kunci rahasia. Oleh karena itu, Diffie–Hellman biasanya dikombinasikan dengan sertifikat digital atau tanda tangan kriptografi. Kombinasi tersebut memastikan keamanan dan keaslian komunikasi.
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 
----
+Diffie–Hellman merupakan protokol kriptografi yang digunakan untuk melakukan pertukaran kunci rahasia melalui jaringan yang tidak aman. Protokol ini memungkinkan dua pihak untuk membentuk kunci bersama tanpa harus mengirimkan kunci rahasia tersebut secara langsung. Dengan demikian, komunikasi dapat tetap terjaga kerahasiaannya meskipun dilakukan melalui media publik.
+Mekanisme Diffie–Hellman memanfaatkan bilangan prima, generator, dan operasi perpangkatan modulo untuk menghasilkan kunci publik dan kunci privat. Kunci publik dipertukarkan secara terbuka, sedangkan kunci privat tetap dirahasiakan oleh masing-masing pihak. Keamanan protokol ini bergantung pada sulitnya menyelesaikan masalah logaritma diskrit, sehingga pihak ketiga tidak dapat dengan mudah menebak kunci rahasia.
+Meskipun aman secara matematis, Diffie–Hellman memiliki kelemahan karena tidak menyediakan autentikasi bawaan. Hal ini menyebabkan protokol rentan terhadap serangan Man-in-the-Middle, di mana penyerang dapat menyamar sebagai pihak komunikasi. Oleh karena itu, penerapan Diffie–Hellman dalam sistem nyata biasanya dikombinasikan dengan mekanisme autentikasi seperti sertifikat digital atau tanda tangan kriptografi.
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
-- Visual Studio Code / editor lain  
+- Visual Studio Code  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
-
----
 
 ## 4. Langkah Percobaan
 (Tuliskan langkah yang dilakukan sesuai instruksi.  
