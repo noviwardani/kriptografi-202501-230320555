@@ -64,15 +64,24 @@ Hasil eksekusi program Caesar Cipher:
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
+- Pertanyaan 1: 
+
+Diffie–Hellman memungkinkan pertukaran kunci di saluran publik karena kunci rahasia tidak pernah dikirimkan secara langsung, melainkan dihasilkan secara mandiri oleh masing-masing pihak menggunakan kunci privat dan parameter publik, serta dilindungi oleh kesulitan matematis masalah logaritma diskrit yang sangat sulit dipecahkan oleh penyerang.
+
+- Pertanyaan 2: 
+
+Kelemahan utama protokol Diffie–Hellman murni adalah tidak adanya mekanisme autentikasi identitas, sehingga protokol ini rentan terhadap serangan Man-in-the-Middle di mana penyerang dapat menyamar sebagai pihak yang sah tanpa terdeteksi.
+
+- Pertanyaan 3 : 
+
+Serangan Man-in-the-Middle pada Diffie–Hellman dapat dicegah dengan menambahkan mekanisme autentikasi seperti tanda tangan digital, sertifikat digital (PKI), atau menggunakan protokol terautentikasi seperti TLS dengan DHE/ECDHE yang memastikan keaslian identitas pihak yang berkomunikasi.
 )
----
+
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
 
----
+Berdasarkan percobaan yang dilakukan, protokol Diffie–Hellman terbukti mampu menghasilkan kunci rahasia bersama meskipun proses pertukaran dilakukan melalui saluran komunikasi publik, karena keamanan algoritma bergantung pada kesulitan masalah logaritma diskrit. Namun, simulasi juga menunjukkan bahwa Diffie–Hellman murni memiliki kelemahan serius, yaitu tidak adanya mekanisme autentikasi sehingga rentan terhadap serangan Man-in-the-Middle. Oleh karena itu, untuk menjamin keamanan komunikasi, protokol Diffie–Hellman harus dikombinasikan dengan mekanisme autentikasi seperti tanda tangan digital atau sertifikat digital agar pertukaran kunci benar-benar aman.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
@@ -86,9 +95,9 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit week7 Diffie-hellman 
+Author: Novi Ari Wardani <ewardani101103@gmail.com>
+Date:   2025-11-2022
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week7-Diffie-hellman: Key Exchange )
 ```
