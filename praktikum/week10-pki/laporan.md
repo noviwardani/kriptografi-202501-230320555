@@ -97,6 +97,7 @@ PKI penting karena memberi jaminan identitas (server benar), mendukung TLS/HTTPS
 ## 5. Source Code
 (Salin kode program utama yang dibuat atau dimodifikasi.  
 Gunakan blok kode:
+
 import argparse
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
@@ -367,9 +368,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-)
-
----
 
 ## 6. Hasil dan Pembahasan
 (- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
