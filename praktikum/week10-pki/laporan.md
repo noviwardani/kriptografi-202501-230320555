@@ -368,9 +368,12 @@ def main():
 if __name__ == "__main__":
     main()
 
+<<<<<<< HEAD
 
 
 ---
+=======
+>>>>>>> b85167a1ed38e8c69772336d755b1172f15dab68
 
 ## 6. Hasil dan Pembahasan
 (- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
